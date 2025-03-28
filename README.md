@@ -1,41 +1,63 @@
-# Website
+# Trison Development Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+📚 Documentación técnica interna de Trison para proyectos AV.  
+Incluye precios actualizados, módulos desarrollados, guías de uso, manuales y procesos internos.
 
-### Installation
+> **Nota:** Este proyecto es interno. No contiene información confidencial y está orientado al uso interno de Trison.
 
-```
-$ yarn
-```
+---
 
-### Local Development
+## 🚀 ¿Qué contiene?
 
-```
-$ yarn start
-```
+- Tabla de precios de drivers y servicios  
+- Fichas técnicas de módulos desarrollados  
+- Tutoriales básicos y buenas prácticas  
+- Manuales de fabricantes  
+- Guías para presupuestado y puesta en marcha  
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+---
 
-### Build
+## 🛠️ Desarrollo local
 
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+npm install
+npm run start
 ```
 
-Not using SSH:
+Abre tu navegador en [http://localhost:3000](http://localhost:3000)
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+---
+
+## 🏗️ Despliegue
+
+```bash
+npm run build
+npm run serve
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+O despliega el contenido de `/build` en Apache, NGINX o cualquier hosting estático.
+
+---
+
+## 🧠 Estructura del proyecto
+
+```txt
+docs/           → Contenido de la documentación  
+src/pages/      → Páginas personalizadas (React)  
+static/         → Archivos estáticos (PDFs, logos, etc.)  
+.docusaurus/    → Generado automáticamente  
+build/          → Contenido final para producción  
+```
+
+---
+
+## 🧑 Autor
+
+Carlos Soto · [carlos.soto@trisonworld.com](mailto:carlos.soto@trisonworld.com)  
+[https://github.com/carlosmoshudev](https://github.com/carlosmoshudev)
+
+---
+
+## 🪪 Licencia
+
+MIT — ver [LICENSE](./LICENSE)
