@@ -1,7 +1,29 @@
 {
-  "name": "docu",
-  "version": "0.0.0",
+  "name": "trison-development-documentation",
+  "version": "1.0.0",
   "private": true,
+  "description": "Documentación técnica de desarrollo AV de Trison. Incluye precios, módulos, tutoriales, y manuales internos.",
+  "author": "Carlos Soto <carlos.soto@trisonworld.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/carlosmoshudev/Trison_Development_Documentation#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosmoshudev/Trison_Development_Documentation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carlosmoshudev/Trison_Development_Documentation/issues"
+  },
+  "keywords": [
+    "docusaurus",
+    "documentation",
+    "AV",
+    "trison",
+    "desarrollo",
+    "drivers",
+    "tutoriales",
+    "precios",
+    "base de conocimiento"
+  ],
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
